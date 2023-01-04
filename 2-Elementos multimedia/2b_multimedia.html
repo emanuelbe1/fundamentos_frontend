@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos multimedia.</title>
+</head>
+<body>
+    <!--Se pueden sumar elementos multimedia al documento HTML.
+    · Se debe validar siempre la compatibilida
+    de elementos y browsers.
+    · Se pueden embeber videos de plataformas como Youtube.
+    · Los meta OG sirven para compartir contenido en RRSS.
+    · Los elementos semánticos ayudan a posicionar el portal.
+    -->
+    <p>Los <strong>elementos multimedia</strong> vienen en diversos formatos.
+    Pueden ser casi cualquier cosa que podamos ver o escuchar,
+    como imagenes, música, sonido, etc.
+    Los sitios web suelen contenerlos de diferentes tipos y formatos.
+    </p>
+    <ul>Ejemplos de multimedia: 
+        <li>Video.</li>
+        <li>Audio.</li>
+        <li>Imagénes.</li>
+    </ul>
+    <p><strong>Compatibilidad</strong>: No todos son compatibles en todos los navegadores.
+        Para buscar el elemento que queremos aplicar y conocer su compatibilidad
+        con todos los navegadores existentes,
+        podemos usar el sitio web <a href="https://caniuse.com/">CanIuse</a>.
+    </p>
+    Formatos de video soportados:
+    <ul>
+        <li>MP4(video/mp4)</li>
+        <li>WebM(video/webm)</li>
+        <li>Ogg(web/ogg)</li>
+    </ul>
+    <video width="480" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        Tu navegador no soporta el formato del elemento video.
+    </video>
+    <p>Elemento de audio: El atributo 'controls' permitira al usuario
+    reproducir, pausar y ajustar el volumen de audio.
+    </p>
+    <p>Distintos formatos de audio soportados:</p>
+    <ul>
+        <li>MP3 (mpeg/mp3)  </li>
+        <li>Wav (audio/wav) </li>
+        <li>Ogg (audio/ogg) </li>
+    </ul>
+    <video controls>
+        <source src="audio.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento audio.
+    </video>
+<p><strong>Insertar un video de YouTube:</strong>
+Para insertar un video de Youtube dentro del documento HTML,
+debemos hacer clic en <strong>Compartir</strong> y, luego, en Incorporar.
+Esto nos proporcionará el código necesario para incluirlo en el documento HTML.</p>
+<iframe 
+    width="280"
+    height="155"
+    src="https://www.youtube.com/embed/7bcV-TL9mho"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+</body>
+</html>

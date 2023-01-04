@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- 
+
+-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS.</title>
+    <!--
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+    <!--
+    
+    Inline style: no es una buena practica.
+    
+    <style>
+    p, ul {
+        color: rgb(6, 73, 95);
+        width: 300;
+    }
+    h3 {
+        font-weight: bold;
+        color: cadetblue ;
+    }
+    </style>
+
+    -->
+
+    <link rel="stylesheet"
+    type="text/css"
+    href="css/estilos.css"> 
+    <!-- <link rel="stylesheet" type="text/css" href="mystyle.css"> -->
+    
+    <!--Referenciar un archivo de estilos css externos-->
+</head>
+<body>
+    <h1>Introducción a CSS.</h1>
+    <nav>
+    <h3>En este módulo:</h3>
+    <ul>
+        <li>Aplicar estilos a documentos HTML.</li>
+        <li>Capa de presentación, aplicada a través de CSS, para customizar documentos.</li>
+        <li>Distintas formas de aplicar CSS: buenas prácticas, box model y conceptos clave.</li>
+    </ul>
+
+    <h3>Definición de CSS:</h3>
+
+        <p>CSS(Hoja de Estilo en Cascada) es el código para dar estilo a la página web.
+        Este no es un lenguaje de programación o de marcado;
+        es un lenguaje de hojas de estilo, y permite aplicar estos de forma selectiva a los elementos en documentos HTML.
+        </p>
+    
+    </nav>
+
+    <section>
+
+        Este es un ejemplo de la división section con las propiedades CSS aplicadas.
+
+    </section>
+    
+    <section>
+
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel facilisis mauris, quis placerat erat. Duis rhoncus scelerisque lobortis. Aliquam scelerisque dolor in erat mollis, at gravida ligula ullamcorper. Aliquam a neque erat. Pellentesque vitae sollicitudin tellus, non auctor nulla. Morbi et aliquet purus. Fusce quis velit vel orci vestibulum varius quis non enim. Cras quis egestas mauris, blandit finibus odio. Maecenas sed ultrices quam. Fusce egestas ornare nisi quis gravida. Mauris ante eros, tincidunt sit amet mollis sed, blandit et lacus. Quisque vulputate tortor vitae commodo pulvinar. Praesent lacus purus, fermentum et nibh ac, vulputate placerat sapien. Sed sed lobortis justo.</p>
+
+    </section>
+    <section>
+
+        <h3>Tipos de aplicación de estilos en CSS</h3>
+        <ul>
+            <li>Estilos Inline.</li>
+            <li>Estilos internos.</li>
+            <li>Incluir un archivo de CSS externo.(Considerada buena practica)</li>
+        </ul>
+
+    </section>
+    <section>
+
+        <h3>Unidades de medida en CSS</h3>
+        <ul>
+            <li><b>px</b>: pixeles</li>
+            <li><b>em</b>: unidad de medida, 1 em == tamaño de fuente actual.</li>
+            <li><b>rem</b>: unidad de medida 1 rem == tamaño de fuente del cuerpo(body)</li>
+            <li><b>porcentaje</b>, representado por el signo %.</li>
+        </ul>
+    </section>
+    <!--Caja dentro de cajas/box inside a box(box-model)-->
+    <section>
+        <h3>Colores en CSS</h3>
+        <p> Hay tres tipos de notaciones para el color:</p>
+        <ul>
+            <li><b>Hexa</b>: Valores hexadecimales, "#ff0000".</li>
+            <li><b>RGB</b>: Valor en la escala RGB, "rgb (255, 0, 0)".</li>
+            <li><b>Nombre</b>: El nombre del color en inglés como "red".</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Selectores por elementos</h3>
+        <p>Ejemplo de aplicación de estilo a los elementos <b>&lt;h1&gt;, &lth2&gt;, </b>y <b>&ltp&gt;</b></p>
+        <pre><p> h1, h2, p {text-align: center;
+           color: red;}</p></pre>
+    </section>
+    <section>
+        <h3>Selectores por ID</h3>
+        <p> Ejemplo de aplicación de estilo por ID</p>
+        <pre><p> #parraf1 {text-align: center;
+           color: red;}
+
+·En <b>HTML</b>:
+
+&lt;p id="parraf1"&gt;Texto de ejemplo&lt;/p&gt;
+    </section>
+    <p id="mi_parrafo"> Elemento de colores especificados usando el selector ID</p>    
+    <!--El id es unico, por lo tanto, si queremos usarlo en multiples elementos
+    debemos usar el atributo class-->
+
+        <p class="miclase">· Consectetur adipiscing elit 1</p>
+        <p class="miclase">· Consectetur adipiscing elit 2</p>
+        <p class="miclase">· Consectetur adipiscing elit 3</p>
+        <p class="miclase">· Consectetur adipiscing elit 4</p>
+
+</body>
+</html>
