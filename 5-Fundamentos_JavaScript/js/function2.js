@@ -25,3 +25,15 @@ document.getElementById("boton_default").addEventListener('click', function() {
     console.log("Capturamos el evento click para cambiar el fondo a default");
     document.body.style.backgroundColor = 'wheat';
 });
+
+
+document.getElementById("boton_ocultar").addEventListener('click', function() {
+    if(document.getElementById('demo1').style.display == 'none'){
+        document.getElementById('demo1').style.display = 'initial';
+        document.getElementById('boton_ocultar').innerHTML = 'Ocultar'
+        ;
+    } else {
+        document.getElementById('demo1').style.display = 'none';
+        document.getElementById('boton_ocultar').innerHTML = 'Mostrar'
+    };
+});
