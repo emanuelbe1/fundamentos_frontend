@@ -1,0 +1,17 @@
+body {background-color: whitesmoke;}
+*{
+    color: #1e1e95;
+}
+
+h3{
+    border: 3px solid lightslategray;
+    color: cadetblue;
+    margin: 10px 5px 15px 5px;
+    padding: 5px;
+}
+section {
+    width: 315px;
+    border: 5px solid lightsteelblue;
+    padding: 13px;
+    margin: 20px;
+}
