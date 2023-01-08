@@ -1,7 +1,9 @@
 /* Estilos para el proyecto final */
 *{
-	margin: 3px;
+	margin: 2px ;
 	box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 body{
 	background-color: rgb(253, 254, 255);
@@ -21,7 +23,7 @@ body{
 .izquierdo{
 	position: initial;
 	background-color: aliceblue;
-	padding: 20px;
+	padding: 7px;
 
 }
 .derecho{
@@ -40,9 +42,24 @@ body{
 }-->*/
 h2{
     text-decoration: underline rgba(95, 95, 95, 0.25);
+    font-size: 17px;
 }
 img{
     border: 5px solid #555;
     width: 150;
     height: 150;
 }
+h1{
+    font-size: 25px;
+}
+table {
+    font-family: arial;
+    border-collapse: separate;
+    width: 90%;
+  }
+  
+  td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+  }
