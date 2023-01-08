@@ -1,0 +1,3 @@
+<h3>Explicación</h3>
+
+<p>Este conjunto de archivos forma parte de practicas y notas propias realizadas en el curso "Introducción : Primeros pasos en Front-end", de Ticmas Academy, que forma parte del plan Argentina Programa v4.0, comenzado el día 30 de diciembre con finalización para el día 1 de febrero. El contenido practico del curso está desarrollado en HTML, CSS y JavaScript, para la enseñansa de sus bases. Para la aprobación final del curso consta de un proyecto final integrador, que se encuentra en la carpeta "6_proyecto_final_integrador_front_end". También en este curso se ofrece información teorica para explicar y fundamentar el funcionamiento en la practica.</p>
