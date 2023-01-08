@@ -1,0 +1,48 @@
+/* Estilos para el proyecto final */
+*{
+	margin: 3px;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todo{
+	width: 75%;
+	max-width: 1200px;
+	min-height: 120px;
+	background-color: #93a5b5;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.izquierdo{
+	position: initial;
+	background-color: aliceblue;
+	padding: 20px;
+
+}
+.derecho{
+	position: initial;
+	background-color: rgb(233, 241, 236);
+	padding: 20px;
+
+}
+.f_perfil .i_contacto, .habilidades, .idiomas, .hobbies, .titulo,
+.sumario, .experiencia, .educacion{
+	margin-bottom: 30px;
+}
+/*h2{
+	background-color: rgb(4, 96, 150);
+    rgba(95, 95, 95, 0.4);
+}-->*/
+h2{
+    text-decoration: underline rgba(95, 95, 95, 0.25);
+}
+img{
+    border: 5px solid #555;
+    width: 150;
+    height: 150;
+}

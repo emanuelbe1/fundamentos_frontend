@@ -41,5 +41,4 @@ University Of St. Gallen (Hsg)
 2010 - 2014
 ·Graduated with a First Class Honours, Top 5% of the cohort
 ·Studied abroad and studied about the school with a first class honors
-
 */

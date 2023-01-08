@@ -1,0 +1,51 @@
+<!-- Clase e ID:
+La id: Es un atributo para especificar una ID unica para un elemento.
+En este ejemplo, queremos un color y tamaño particular para el titulo, en el primer encabezado.
+
+La clase(class) es un atributo para definir diferentes elementos con el mismo nombre de clase.
+
+
+Por qué usaria las mismas clases en distintos elementos?
+Porque probablemente querria escribir algunas frases con la misma fuente(font), color(colour), y tamaño(size).
+
+· Ambos(la clase y el ID) son definidos dentro del tag <style>, y las propiedades son definidas en llaves: {}
+· La sintaxis para la clase necesita el punto (.) seguido del nombre de la clase.
+· En tanto, el ID necesita del signo numeral(hashtag: #) , seguido del nombre del ID.
+
+Una vez que creamos la clase y el ID en el tag <style>, debemos aplicarlas en los elementos que queramos.
+
+
+Nota: <b> e <i> son tags para bold e italic text.
+//-->
+
+<html>
+ <head>
+   <style>
+    *{text-align:center;}
+     #mititulo {
+     font-size: 60;
+     color: rgb(63, 15, 60);
+     }
+     .citas {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+        background-color: rgb(143, 115, 141); 
+    }
+   </style>
+ </head>
+ <body>
+
+   <h1 id="mititulo">Titulo más importante del documento</h1>
+   <h2>Citas.</h2><!-- segundo header -->
+   <p class='citas'><i>"Si quieres cambiar el mundo, toma tu pluma y escribe."<i>
+   <a href="https://es.wikipedia.org/wiki/Mart%C3%ADn_Lutero"></p>-Martin Lutero</a>
+   <p class='citas'><i>"El cuerpo humano es el carruaje;<br>
+     el yo, el hombre que lo conduce;<br>
+     el pensamiento son las riendas, y los sentimientos, los caballos."<i></p>
+     <b>-Platón</b>
+
+  </body>
+</html>
