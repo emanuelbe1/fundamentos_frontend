@@ -1,4 +1,6 @@
 /* Estilos para el proyecto final */
+/* color atractivo para fondo alternativo:
+rgb(165, 139, 146) y sin bg color para clase "todo"*/
 *{
 	margin: 2px ;
 	box-sizing: border-box;

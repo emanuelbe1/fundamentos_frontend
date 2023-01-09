@@ -5,7 +5,6 @@
 //Al evento, agregarle un evento listener. Se puede conocer más eventos en
 //HTML DOM event w3schools.
 
-
 /*document.addEventListener('click', function(){
     console.log("Hola desde EventListener");
     document.getElementById("demo").innerHTML = "Estamos probando nuestro primer evento en JS";
@@ -27,13 +26,24 @@ document.getElementById("boton_default").addEventListener('click', function() {
 });
 
 
-document.getElementById("boton_ocultar").addEventListener('click', function() {
-    if(document.getElementById('demo1').style.display == 'none'){
-        document.getElementById('demo1').style.display = 'initial';
-        document.getElementById('boton_ocultar').innerHTML = 'Ocultar'
+document.getElementById("boton_ocultar1").addEventListener('click', function() {
+    if(document.getElementById('exp1').style.display == 'none'){
+        document.getElementById('exp1').style.display = 'initial';
+        document.getElementById('boton_ocultar1').innerHTML = 'Ocultar'
         ;
     } else {
-        document.getElementById('demo1').style.display = 'none';
+        document.getElementById('exp1').style.display = 'none';
+        document.getElementById('boton_ocultar').innerHTML = 'Mostrar'
+    };
+});
+
+document.getElementById("boton_ocultar2").addEventListener('click', function() {
+    if(document.getElementById('exp2').style.display == 'none'){
+        document.getElementById('exp2').style.display = 'initial';
+        document.getElementById('boton_ocultar2').innerHTML = 'Ocultar'
+        ;
+    } else {
+        document.getElementById('exp2').style.display = 'none';
         document.getElementById('boton_ocultar').innerHTML = 'Mostrar'
     };
 });
