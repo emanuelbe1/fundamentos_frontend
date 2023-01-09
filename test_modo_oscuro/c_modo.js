@@ -1,3 +1,4 @@
+document.getElementById('pagestyle').setAttribute('href', pagesheet)
 
 document.getElementById("boton_ocultar2").addEventListener('click', function() {
     if(document.getElementById('exp2').style.display == 'none'){
