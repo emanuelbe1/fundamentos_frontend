@@ -12,7 +12,7 @@
     width: 55%;
 }
 body{
-    background-color: #19243a;
+    background-color: #283247;
 }
 div{
     color: rgba(241, 240, 240, 0.808);
@@ -23,8 +23,7 @@ h1{
     color:azure;
     text-align: center;
 }
-
-#modo{
+#b_modo{
     position:relative;
     left: 40%;
 }

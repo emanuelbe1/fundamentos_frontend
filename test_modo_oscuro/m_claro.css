@@ -1,0 +1,29 @@
+/*Colores para modo oscuro*/
+.contenedor{
+    background-color:#83c77b;;
+    display: flex;
+}
+.columna1{
+    background-color:#c3d9c9;
+    width: 45%;
+}
+.columna2{
+    background-color:#8fd3aa;
+    width: 55%;
+}
+body{
+    background-color: #d4d8e1;
+}
+div{
+    color: #000000;
+    font-family: Tahoma, Verdana;
+    padding: 10px;
+}
+h1{
+    color: #25543d;
+    text-align: center;
+}
+#b_modo{
+    position:relative;
+    left: 40%;
+}
