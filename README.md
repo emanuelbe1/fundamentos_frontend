@@ -1,5 +1,4 @@
 <h2 align=center>Explicación</h2></br>
-
 <p> &ensp;· Este conjunto de archivos forma parte de practicas y notas propias realizadas en el curso "Introducción : Primeros pasos en Front-end" de Ticmas Academy. Este forma parte del plan Argentina Programa v4.0, siendo su fecha de inicio el día 30 de diciembre del año 2022 y finalización para el día 1 de febrero del año 2023.
 <br>
 <br>
