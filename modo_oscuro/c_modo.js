@@ -11,11 +11,12 @@
 });*/
 
 
-document.getElementById("b_modo").addEventListener('click', function() {
-    if(document.getElementById('estilo').getAttribute('href') == "m_oscuro.css" ){
-        document.getElementById('estilo').setAttribute('href', "m_claro.css");
+document.getElementById("b_modo").addEventListener('click', function(){
+    if(document.getElementById('estilo').getAttribute('href') == "css/m_claro.css" ){
+        document.getElementById('estilo').setAttribute('href', "css/m_oscuro.css");
+        console.log("se cambio al modo oscuro")
     }else{
-        document.getElementById('estilo').setAttribute('href', "m_oscuro.css");
-        console.log("Se cambio al color oscuro.");
+        document.getElementById('estilo').setAttribute('href', "css/m_claro.css");
+        console.log("Se cambio al modo claro.");
     }
 });
