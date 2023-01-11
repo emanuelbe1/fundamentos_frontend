@@ -1,0 +1,23 @@
+h1{
+    color: darkslategray;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3{
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+body{
+    background-color: beige;
+}
+a{
+    left: 50%;
+    position: relative;
+}
+.primer{
+    padding: 10px 10px 10px 10px;
+    border: 1px;    
+    background-color: wheat ;
+}
