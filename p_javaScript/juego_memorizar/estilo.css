@@ -17,4 +17,9 @@ body{
     color: rgb(214, 208, 208);
     background-color: #29233c;
 }
-
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
