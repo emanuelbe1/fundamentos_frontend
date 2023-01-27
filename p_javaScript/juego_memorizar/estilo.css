@@ -1,0 +1,20 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    color: #8b8787;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3{
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+body{
+    color: rgb(214, 208, 208);
+    background-color: #29233c;
+}
+
