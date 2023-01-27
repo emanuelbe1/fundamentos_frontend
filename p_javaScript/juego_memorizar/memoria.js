@@ -68,7 +68,7 @@ const grid = document.querySelector('.grid')
 const resultDisplay = document.querySelector('#result')
 var cardsChosen =[]
 var cardsChosenId=[]
-var CardsWon = []
+var cardsWon = []
     //creamos nuestro tablero
 function createBoard(){
     for(let i = 0; i < cardArray.length; i++){
